@@ -1,0 +1,32 @@
+@import url('footer.css');
+@import url('header.css');
+@import url('variables.css');
+
+/* Reset default margin and padding */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: var(--color-body);
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: var(--color-white); 
+}
+
+.btn-primary {
+  background-color: var(--primary-color); 
+  color: var(--color-white); 
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color); 
+  color: var(--color-white); ;
+}
