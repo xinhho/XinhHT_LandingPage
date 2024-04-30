@@ -60,3 +60,74 @@ article h2 {
 
 }
 
+.navbar {
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.active {
+    background-color: #555;
+}
+
+/* Style for sections */
+section {
+  height: 500px; /* adjust height as needed */
+ /* space for fixed navigation bar */
+}
+
+/* Style for section content */
+.section-content {
+    padding: 60px 0px;
+}
+
+.introduce {
+  height: 900px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+  section {
+    min-height: 1200px;
+    height: 1200px;
+  }
+
+  .section-content {
+    padding: 120px 0px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  section {
+    min-height: 500px;
+    height: 775px;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  section {
+    min-height: 500px;
+  }
+  
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  section {
+    min-height: 500px;
+  }
+}
