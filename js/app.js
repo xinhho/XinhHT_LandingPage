@@ -24,8 +24,6 @@ window.onload = function() {
       }
     });
 
-    console.log('activeSection', activeSection);
-
     navLinks.forEach((nav) => {
       nav.classList.remove('active');
       if (nav.classList.contains(activeSection)) {
